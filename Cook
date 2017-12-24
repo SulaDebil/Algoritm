@@ -1,0 +1,12 @@
+Дан текст найти наибольшее количество цифр, идущих в нем подряд.
+S = " ghfoigjiofdjgoj23009329urdfjdspoiuf90j349i43rojfpodkm "
+kl = 0 
+max = 0
+mn = { "0" , "1" , "2", "3", "4", "5", "6", "7", "8", "9" }
+for i in S:
+    if i in mn :
+        kl = kl+1
+    else:
+        if kl > max:
+           max=kl
+print()
